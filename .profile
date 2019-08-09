@@ -8,3 +8,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
 
 eval "$(rbenv init -)"
+
+alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+alias watchos="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator\ \(Watch\).app"
