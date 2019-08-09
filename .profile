@@ -5,6 +5,10 @@ alias bf="bundle exec fastlane"
 
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/tools/bin:$PATH"
+export PATH="$PATH:$HOME/flutter/bin"
+
 export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
 
 eval "$(rbenv init -)"
