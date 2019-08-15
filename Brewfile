@@ -7,6 +7,7 @@ cask "adoptopenjdk"
 brew "ack"
 brew "awscli"
 brew "carthage"
+brew "cocoapods"
 brew "findutils"
 brew "genact"
 brew "git"
@@ -15,6 +16,7 @@ brew "go"
 brew "httpie"
 brew "hub"
 brew "usbmuxd"
+brew "libimobiledevice"
 brew "ideviceinstaller"
 brew "imagemagick"
 brew "ios-deploy"
@@ -44,6 +46,7 @@ cask "cyberduck"
 cask "daisydisk"
 cask "dash"
 cask "dbeaver-community"
+cask "discord"
 cask "docker"
 cask "dropbox"
 cask "firefox"
@@ -67,8 +70,10 @@ cask "visual-studio-code"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
 mas "AdBlock", id: 1402042596
+mas "Airmail", id: 918858936
 mas "Dynamo", id: 1445910651
 mas "Fantastical", id: 975937182
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
+mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
