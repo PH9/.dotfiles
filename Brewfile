@@ -78,6 +78,7 @@ mas "AdBlock", id: 1402042596
 mas "Airmail", id: 918858936
 mas "Dynamo", id: 1445910651
 mas "Fantastical", id: 975937182
+mas "Final Cut Pro", id: 424389933
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "TweetDeck", id: 485812721
