@@ -1,3 +1,5 @@
+alias e="code"
+
 alias bu="bundle update"
 alias be="bundle exec"
 alias bepu="bundle exec pod update"
