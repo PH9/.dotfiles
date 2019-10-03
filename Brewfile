@@ -84,5 +84,6 @@ mas "Final Cut Pro", id: 424389933
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
+mas "Shazam", id: 897118787
 mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
