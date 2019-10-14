@@ -82,6 +82,7 @@ mas "Airmail", id: 918858936
 mas "Dynamo", id: 1445910651
 mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
+mas "Grammarly for Safari", id: 1462114288
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
