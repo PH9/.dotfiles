@@ -76,6 +76,7 @@ cask "the-unarchiver"
 cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
+cask "zoomus"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
 mas "AdBlock", id: 1402042596
