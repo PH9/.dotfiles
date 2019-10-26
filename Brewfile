@@ -92,5 +92,6 @@ mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
 mas "Shazam", id: 897118787
+mas "Trello", id: 1278508951
 mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835
