@@ -1,4 +1,5 @@
 alias e="code"
+alias xcode.="xcode ."
 
 alias bu="bundle update"
 alias be="bundle exec"
