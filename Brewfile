@@ -81,6 +81,7 @@ cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
+cask "wwdc"
 cask "zoomus"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
