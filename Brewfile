@@ -122,6 +122,7 @@ mas "IP Scanner", id: 404167149
 mas "iStat Mini", id: 927292435
 mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
+mas "iStat Mini", id: 927292435
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
