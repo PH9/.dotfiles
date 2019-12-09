@@ -1,4 +1,5 @@
 tap "adoptopenjdk/openjdk"
+tap "dart-lang/dart"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
