@@ -103,7 +103,6 @@ cask "zoomus"
 cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
 mas "AdBlock", id: 1402042596
-mas "Airmail", id: 918858936
 mas "Dynamo", id: 1445910651
 mas "EpocCam Viewer", id: 736008948
 mas "Fantastical", id: 975937182
