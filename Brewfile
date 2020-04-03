@@ -4,17 +4,22 @@ tap "caskroom/eid"
 tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "dart-lang/dart"
+tap "facebook/fb"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
-cask "adoptopenjdk"
+cask "adoptopenjdk8"
 brew "ack"
-brew "python"
+brew "ant"
 brew "awscli"
+brew "awsume"
+brew "python"
 brew "carthage"
-brew "ffmpeg"
+brew "dependency-check"
 brew "dockutil"
+brew "ffmpeg"
 brew "findutils"
 brew "genact"
 brew "git"
@@ -46,20 +51,23 @@ brew "telnet"
 brew "the_silver_searcher"
 brew "tmux"
 brew "watch"
+brew "watchman"
 brew "youtube-dl"
 brew "dart-lang/dart/dart"
+brew "facebook/fb/buck"
 cask "1password"
-cask "adoptopenjdk8"
+cask "adoptopenjdk"
+cask "adoptopenjdk11"
 cask "android-file-transfer"
 cask "android-studio"
 cask "appcode"
+cask "appium"
 cask "bluestacks"
 cask "caprine"
 cask "ccmenu"
 cask "charles"
 cask "clipy"
 cask "cyberduck"
-cask "daisydisk"
 cask "dash"
 cask "dbeaver-community"
 cask "discord"
@@ -88,11 +96,12 @@ cask "slack"
 cask "sourcetree"
 cask "spotify"
 cask "steam"
-cask "telegram"
 cask "teamviewer"
+cask "telegram"
 cask "the-unarchiver"
 cask "tor-browser"
 cask "transmission"
+cask "tunnelblick"
 cask "twitch"
 cask "visual-studio-code"
 cask "vlc"
@@ -100,26 +109,32 @@ cask "whatsapp"
 cask "wwdc"
 cask "zeplin"
 cask "zoomus"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "1Password 7", id: 1333542190
 mas "AdBlock", id: 1402042596
+mas "DaisyDisk", id: 411643860
+mas "Disk Speed Test", id: 425264550
 mas "Dynamo", id: 1445910651
 mas "EpocCam Viewer", id: 736008948
 mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
 mas "Grammarly for Safari", id: 1462114288
+mas "IP Scanner", id: 404167149
 mas "iStat Mini", id: 927292435
 mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Magnet", id: 441258766
+mas "Messenger", id: 1480068668
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Shazam", id: 897118787
+mas "Spark", id: 1176895641
+mas "Speedtest", id: 1153157709
 mas "Trello", id: 1278508951
 mas "TweetDeck", id: 485812721
+mas "WiFi Explorer Lite", id: 1408727408
 mas "Xcode", id: 497799835
