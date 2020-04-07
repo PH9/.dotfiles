@@ -24,7 +24,7 @@ brew install rbenv
 
 ruby_version=2.6.6
 
-echo '[I] Install ruby version '$ruby_version' from rbenv. 
+echo '[I] Install ruby version '$ruby_version' from rbenv.
 If already install it will skip automatically.'
 
 rbenv install $ruby_version -s
@@ -58,9 +58,6 @@ brew bundle
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-gem install bundler
-bundle install
 
 # Setup vi
 echo 'set number
