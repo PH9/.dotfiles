@@ -19,7 +19,7 @@ brew bundle
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Setup Ruby
-ruby_version=2.6.5
+ruby_version=2.7.0
 
 rbenv install $ruby_version
 rbenv init
