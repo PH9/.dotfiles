@@ -1,8 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "caskroom/cask"
-tap "caskroom/eid"
-tap "caskroom/fonts"
-tap "caskroom/versions"
 tap "dart-lang/dart"
 tap "facebook/fb"
 tap "heroku/brew"
