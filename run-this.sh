@@ -29,8 +29,9 @@ if grep 'eval "$(rbenv init -)"' "$HOME/.zshrc" >/dev/null; then
 else
     echo "[!] Setting rbenv to ~/.zshrc"
     ex -sc '1i|eval "$(rbenv init -)"' -cx $HOME/.zshrc
-    eval "$(rbenv init -)"
 fi
+
+eval "$(rbenv init -)"
 
 gem install bundler
 bundle update
