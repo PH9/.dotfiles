@@ -73,7 +73,7 @@ syntax on' > ~/.vimrc
 
 curl -s "https://get.sdkman.io" | bash
 
-export SDKMAN_DIR="/Users/w/.sdkman"
-[[ -s "/Users/w/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/w/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 sdk install java 8.0.242.j9-adpt
