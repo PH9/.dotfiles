@@ -26,11 +26,11 @@ rbenv init
 
 rbenv global $ruby_version
 
-if grep 'eval "$(rbenv init -)"' "$HOME/.zshrc"; then
+if grep 'eval "$(rbenv init -)"' "$HOME/.zshrc" >/dev/null; then
     echo "[I] Already set rbenv to ~/.zshrc"
 else
     echo "[!] Setting rbenv to ~/.zshrc"
-    echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+    ex -sc '1i|eval "$(rbenv init -)"' -cx $HOME/.zshrc
 fi
 
 gem install bundler
