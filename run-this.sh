@@ -1,5 +1,10 @@
 #!/bin/zsh
 
+my_email=wasith.t@gmail.com
+
+git config --global user.name "Wasith Theerapattrathamrong"
+git config --global user.email $my_email
+
 # install brew
 
 if ! [ -x "$(command -v brew)" ]; then
@@ -17,7 +22,10 @@ brew upgrade
 # Setup Ruby
 brew install rbenv
 
-ruby_version=2.7.0
+ruby_version=2.6.6
+
+echo '[I] Install ruby version '$ruby_version' from rbenv. 
+If already install it will skip automatically.'
 
 rbenv install $ruby_version -s
 rbenv init
@@ -37,6 +45,7 @@ gem install bundler
 bundle update
 
 xcode_version=11.4
+export XCODE_INSTALL_USER=$my_email
 
 xcversion update
 xcversion list
