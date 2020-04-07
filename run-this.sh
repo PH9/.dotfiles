@@ -19,7 +19,7 @@ brew install rbenv
 
 ruby_version=2.7.0
 
-rbenv install $ruby_version
+rbenv install $ruby_version -s
 rbenv init
 
 rbenv global $ruby_version
