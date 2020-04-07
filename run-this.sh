@@ -76,4 +76,4 @@ curl -s "https://get.sdkman.io" | bash
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
-sdk install java 11.0.6.j9-adpt
+sdk install java 11.0.6.hs-adpt
