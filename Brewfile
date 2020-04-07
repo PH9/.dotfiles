@@ -107,7 +107,6 @@ mas "1Password 7", id: 1333542190
 mas "AdBlock", id: 1402042596
 mas "DaisyDisk", id: 411643860
 mas "Disk Speed Test", id: 425264550
-mas "Airmail", id: 918858936
 mas "Annotate", id: 918207447
 mas "Dynamo", id: 1445910651
 mas "EpocCam Viewer", id: 736008948
