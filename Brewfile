@@ -135,4 +135,3 @@ mas "Trello", id: 1278508951
 mas "TweetDeck", id: 485812721
 mas "WiFi Explorer Lite", id: 1408727408
 mas "Woodpecker", id: 1333548463
-mas "Xcode", id: 497799835
