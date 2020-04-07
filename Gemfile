@@ -3,7 +3,6 @@
 source "https://rubygems.org"
 
 gem "cocoapods"
-gem "cocoapods-developing-folder"
 
 gem "fastlane"
 gem "artifactory"
