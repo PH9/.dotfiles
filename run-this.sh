@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+./macos/install.sh
+./macos/macos.sh
+
 my_email=wasith.t@gmail.com
 
 git config --global user.name "Wasith Theerapattrathamrong"
@@ -65,3 +68,12 @@ set ruler
 syntax on' > ~/.vimrc
 
 # TODO: Setup ~/.zshrc
+
+# Install SDKMAN
+
+curl -s "https://get.sdkman.io" | bash
+
+export SDKMAN_DIR="/Users/w/.sdkman"
+[[ -s "/Users/w/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/w/.sdkman/bin/sdkman-init.sh"
+
+sdk install java 8.0.242.j9-adpt
