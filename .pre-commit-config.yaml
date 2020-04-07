@@ -4,3 +4,4 @@ repos:
   hooks:
   - id: end-of-file-fixer
   - id: detect-private-key
+  - id: trailing-whitespace
