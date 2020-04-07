@@ -112,6 +112,7 @@ mas "Fantastical", id: 975937182
 mas "Final Cut Pro", id: 424389933
 mas "Grammarly for Safari", id: 1462114288
 mas "IP Scanner", id: 404167149
+mas "iStat Menus", id: 1319778037
 mas "iStat Mini", id: 927292435
 mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
