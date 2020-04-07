@@ -1,7 +1,14 @@
 #!/bin/zsh
 
 # install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+if ! [ -x "$(command -v brew)" ]; then
+  echo '[!] Homebrew is not install yet, trying to install...'
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+  echo '[I] Homebrew is already install, skip installation.'
+fi
+
 
 brew update
 brew upgrade
