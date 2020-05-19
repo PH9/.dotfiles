@@ -1,4 +1,3 @@
-tap "adoptopenjdk/openjdk"
 tap "dart-lang/dart"
 tap "facebook/fb"
 tap "heroku/brew"
