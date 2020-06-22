@@ -35,6 +35,3 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.speech.synthesis.general.prefs TimeAnnouncementPrefs -dict TimeAnnouncementsEnabled -bool YES \
     TimeAnnouncementsIntervalIdentifier -string EveryQuarterHourInterval \
     TimeAnnouncementsVoiceSettings '{ VoiceIdentifier = "com.apple.speech.synthesis.voice.daniel.premium"; }'
-
-# Show all hidden files
-defaults write com.apple.Finder AppleShowAllFiles true
