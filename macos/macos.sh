@@ -35,3 +35,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.speech.synthesis.general.prefs TimeAnnouncementPrefs -dict TimeAnnouncementsEnabled -bool YES \
     TimeAnnouncementsIntervalIdentifier -string EveryQuarterHourInterval \
     TimeAnnouncementsVoiceSettings '{ VoiceIdentifier = "com.apple.speech.synthesis.voice.daniel.premium"; }'
+
+# Allow iOS simulator to use fullscreen along with xcode
+defaults write com.apple.iphonesimulator AllowFullscreenMode -bool YES
