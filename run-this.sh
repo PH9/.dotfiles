@@ -77,3 +77,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
 
 sdk install java 11.0.6.hs-adpt
+
+# Install visual-studio-code extensions
+
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension orta.vscode-ios-common-files
+code --install-extension eamodio.gitlens
