@@ -14,6 +14,9 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 # Show hidden files in Finder
 defaults write com.apple.Finder AppleShowAllFiles -bool true
 
+# Show files extension
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
 # Run the screensaver if we're in the bottom-left hot corner.
 defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-bl-modifier -int 0
