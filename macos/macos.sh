@@ -38,3 +38,15 @@ defaults write com.apple.speech.synthesis.general.prefs TimeAnnouncementPrefs -d
 
 # Allow iOS simulator to use fullscreen along with xcode
 defaults write com.apple.iphonesimulator AllowFullscreenMode -bool YES
+
+# Not to show iOS simulator device bezels
+defaults write com.apple.iphonesimulator FloatingNameMode 2
+
+# Show internal hdd, external hdd, and mounted server on desktop
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+
+# Restart finder to make setting effect
+killall -HUP Finder
