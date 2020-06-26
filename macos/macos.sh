@@ -51,5 +51,8 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 # Set macOS as dark theme
 sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
 
+# Show build time in Xcode
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+
 # Restart finder to make setting effect
 killall -HUP Finder
