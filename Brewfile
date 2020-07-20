@@ -140,6 +140,7 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
 mas "NDI Monitor", id: 1111704079
 mas "Numbers", id: 409203825
+mas "Okta Extension App", id: 1439967473
 mas "Pages", id: 409201541
 mas "Shazam", id: 897118787
 mas "Spark", id: 1176895641
