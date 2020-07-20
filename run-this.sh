@@ -25,7 +25,7 @@ brew upgrade
 # Setup Ruby
 brew install rbenv
 
-ruby_version=2.7.1
+ruby_version=2.6.6
 
 echo '[I] Install ruby version '$ruby_version' from rbenv.
 If already install it will skip automatically.'
