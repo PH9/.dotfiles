@@ -1,0 +1,62 @@
+# Mac App Store command-line interface
+brew 'mas'
+
+# Fork of youtube-dl with additional features and fixes
+brew 'yt-dlp'
+
+# AirPods companion app
+cask 'airbuddy'
+
+# Application launcher and productivity software
+cask 'alfred'
+
+# Transfer files from and to an Android smartphone
+cask 'android-file-transfer'
+
+# Menu bar icon organizer
+cask 'bartender'
+
+# Clipboard extension app
+cask 'clipy'
+
+# Files Storage Backup
+cask 'dropbox'
+cask 'google-drive'
+
+# Web browser
+cask 'firefox'
+cask 'google-chrome'
+
+# Utility to fix grammar errors and style issues in text
+cask 'grammarly'
+
+# Media
+cask 'spotify'
+cask 'vlc'
+
+# Social Networking
+cask 'discord'
+cask 'gather'
+cask 'telegram'
+mas 'LINE', id: 539883307
+mas 'Messenger', id: 1480068668
+mas 'TweetDeck', id: 485812721
+
+# GAMES
+cask 'epic-games'
+cask 'origin'
+cask 'steam'
+
+# Open-source BitTorrent client
+cask 'transmission'
+
+mas '1Password 7', id: 1333542190
+mas 'AdBlock', id: 1402042596
+mas 'Be Focused Pro', id: 961632517
+mas 'com.adriangranados.wifiexplorerlite', id: 1408727408
+mas 'Fantastical', id: 975937182
+mas 'Magnet', id: 441258766
+mas 'Manico', id: 724472954
+mas 'Shazam', id: 897118787
+mas 'Spark', id: 1176895641
+mas 'The Unarchiver', id: 425424353

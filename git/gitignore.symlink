@@ -1,3 +1,9 @@
-.DS_Store
+# macOS generated fiels #
+#########################
 *~
-*.swp
+.DS_Store
+
+# iOS generated files #
+#######################
+DerivedData/
+Pods/

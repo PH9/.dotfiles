@@ -1,5 +1,5 @@
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Wasith Theerapattrathamrong
+        email = git@wasith.me
 [credential]
         helper = GIT_CREDENTIAL_HELPER
