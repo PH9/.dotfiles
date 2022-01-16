@@ -1,0 +1,1 @@
+export SPACESHIP_TIME_SHOW=true
