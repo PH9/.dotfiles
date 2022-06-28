@@ -74,6 +74,9 @@ cask 'visual-studio-code'
 # Free and open-source OpenVPN client
 cask 'tunnelblick'
 
+# Fig: autocomplete to your existing terminal
+cask 'fig'
+
 # Mornitoring CI/CD pipelines
 mas 'McPiper', id: 1517471189
 
