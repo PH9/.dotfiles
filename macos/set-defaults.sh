@@ -1,3 +1,4 @@
+#!/bin/sh
 # Sets reasonable macOS defaults.
 #
 # Or, in other words, set shit how I like in macOS.
@@ -29,10 +30,6 @@ defaults write com.apple.Finder AppleShowAllFiles -bool true
 # Show files extension
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Run the screensaver if we're in the bottom-left hot corner.
-defaults write com.apple.dock wvous-bl-corner -int 5
-defaults write com.apple.dock wvous-bl-modifier -int 0
-
 # Hide Safari's bookmark bar.
 defaults write com.apple.Safari ShowFavoritesBar -bool false
 
@@ -62,9 +59,6 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 
 # Set macOS as dark theme
 sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
-
-# Show build time in Xcode
-defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
 
 # Restart finder to make setting effect
 killall -HUP Finder
