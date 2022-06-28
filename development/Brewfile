@@ -44,9 +44,6 @@ cask 'chromedriver'
 # Universal database tool and SQL client
 cask 'dbeaver-community'
 
-# Docker Desktop, Docker Community Edition, Docker CE
-cask 'docker'
-
 # Collaborative team software
 cask 'figma'
 
