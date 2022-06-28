@@ -6,6 +6,14 @@ repos:
   - id: detect-private-key
   - id: trailing-whitespace
 
+- repo: local
+  hooks:
+  - id: shellcheck
+    name: ShellCheck
+    entry: shellcheck
+    language: system
+    files: .*\.sh$
+
 - repo: https://github.com/commitizen-tools/commitizen
   rev: master
   hooks:
