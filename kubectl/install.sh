@@ -1,1 +1,4 @@
-brew install kubernetes-cli
+#!/usr/bin/env bash
+
+brew install 'kubernetes-cli'
+brew install 'kubectx'

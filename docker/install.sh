@@ -1,5 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Docker Desktop, Docker Community Edition, Docker CE
-cask 'docker'
-brew 'dive'
+brew install docker
+brew install dive

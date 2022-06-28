@@ -1,48 +1,33 @@
-# Search tool like grep, but optimized for programmers
+# Mac App Store command-line interface
+brew 'mas'
+
+# Search tools
 brew 'ack'
+brew 'fd' # Simple, fast and user-friendly alternative to find
 brew 'ripgrep'
 
 # Clone of cat(1) with syntax highlighting and Git integration
 brew 'bat'
 
-# OWASP dependency-check
-brew 'dependency-check'
-
-# Simple, fast and user-friendly alternative to find
-brew 'fd'
-
-# Add GitHub support to git on the command-line
-brew 'hub'
+# Source Control
+brew 'hub' # Add GitHub support to git on the command-line
+brew 'sourcetree'
+cask 'github'
+cask 'gitup'
 
 # Lightweight and flexible command-line JSON processor
 brew 'jq'
 
-# Powerful, lightweight programming language
-brew 'lua'
-
-# Mac App Store command-line interface
-brew 'mas'
-
 # Framework for managing multi-language pre-commit hooks
 brew 'pre-commit'
-
-# Static analysis and lint tool, for (ba)sh scripts
-brew 'shellcheck'
 
 # Display directories as trees (with optional color/HTML output)
 brew 'tree'
 
 # HTTP benchmarking tool
 brew 'wrk'
-
-# Fish-like fast/unobtrusive autosuggestions for zsh
-brew 'zsh-autosuggestions'
-
-# Automated testing of webapps for Google Chrome
-cask 'chromedriver'
-
-# Universal database tool and SQL client
-cask 'dbeaver-community'
+brew 'lua' # Powerful, lightweight programming language
+brew 'k6'
 
 # Collaborative team software
 cask 'figma'
@@ -53,16 +38,17 @@ cask 'gitup'
 # HTTP and GraphQL Client
 cask 'insomnia'
 
-# Terminal emulator as alternative to Apple's Terminal app
+# Terminal
 cask 'iterm2'
+cask 'fig' # Fig: autocomplete to your existing terminal
 
 # Open-source keystroke visualizer
 cask 'keycastr'
 
-# Kubernetes IDE
-cask 'lens'
-
 # Modern and intuitive HTTP Debugging Proxy app
+cask 'charles' # Proxy for HTTP Debugging
+cask 'paw'
+cask 'postman'
 cask 'proxyman'
 
 # Open-source code editor
@@ -71,10 +57,32 @@ cask 'visual-studio-code'
 # Free and open-source OpenVPN client
 cask 'tunnelblick'
 
-# Fig: autocomplete to your existing terminal
-cask 'fig'
-
 # Mornitoring CI/CD pipelines
+cask 'catlight'
+cask 'ccmenu'
 mas 'McPiper', id: 1517471189
 
-mas 'MeetingBar', id: 1532419400
+# CI/CD, DevOps
+brew 'awscli'
+brew 'helm'
+brew 'shellcheck'
+brew 'terraform'
+cask 'google-cloud-sdk'
+cask 'lens' # Kubernetes IDE
+
+# Storage
+brew 'postgresql'
+brew 'redis'
+brew 'vault'
+cask 'beekeeper-studio'
+cask 'cyberduck'
+cask 'dbeaver-community' # Universal database tool and SQL client
+
+# Documents
+cask 'dash'
+cask 'drawio'
+cask 'staruml'
+
+# IDE
+cask 'intellij-idea-ce'
+cask 'visual-studio-code'
