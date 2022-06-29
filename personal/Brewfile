@@ -25,7 +25,6 @@ cask 'clipy'
 # Files Storage Backup
 cask 'dropbox'
 cask 'google-drive'
-cask 'google-photos-backup-and-sync'
 
 # Web browser
 cask 'firefox'
