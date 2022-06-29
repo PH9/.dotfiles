@@ -74,26 +74,25 @@ cask 'obs-ndi'
 
 # Unsorted
 
-cask 'intel-power-gadget'
-cask 'macs-fan-control'
-cask 'raspberry-pi-imager'
-cask 'transmission'
-cask 'tunnelblick'
 cask 'geekbench'
 cask 'godot'
 cask 'handbrake'
+cask 'intel-power-gadget'
+cask 'macs-fan-control'
+cask 'raspberry-pi-imager'
 cask 'spotify'
 cask 'teamviewer'
-mas 'Speedtest', id: 1153157709
+cask 'transmission'
+cask 'tunnelblick'
 mas '1Password 7', id: 1333542190
 mas 'AdBlock', id: 1402042596
 mas 'Be Focused Pro', id: 961632517
+mas 'Brother iPrint&Scan', id: 1193539993
 mas 'com.adriangranados.wifiexplorerlite', id: 1408727408
 mas 'DaisyDisk', id: 411643860
 mas 'Developer', id: 640199958
 mas 'DevUtils', id: 1533756032
 mas 'Disk Speed Test', id: 425264550
-mas 'Fantastical', id: 975937182
 mas 'Fantastical', id: 975937182
 mas 'Gifox', id: 1461845568
 mas 'Grammarly for Safari', id: 1462114288
@@ -102,8 +101,6 @@ mas 'iStat Mini', id: 927292435
 mas 'Keynote', id: 409183694
 mas 'Live Wallpaper HD', id: 874715580
 mas 'Magnet', id: 441258766
-mas 'Magnet', id: 441258766
-mas 'Manico', id: 724472954
 mas 'Manico', id: 724472954
 mas 'McPiper', id: 1517471189
 mas 'Microsoft Excel', id: 462058435
@@ -113,6 +110,6 @@ mas 'Microsoft Word', id: 462054704
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Shazam', id: 897118787
-mas 'Shazam', id: 897118787
 mas 'Spark', id: 1176895641
+mas 'Speedtest', id: 1153157709
 mas 'The Unarchiver', id: 425424353
