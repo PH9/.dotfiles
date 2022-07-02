@@ -38,16 +38,13 @@ while test $# -gt 0; do
 	shift
 done
 
-export DOTFILES=$HOME/.dotfiles
+export ZSH=$HOME/.dotfiles
 
 # Set macOS defaults
-$DOTFILES/macos/set-defaults.sh
+$ZSH/macos/set-defaults.sh
 
 # Install homebrew
-$DOTFILES/homebrew/install.sh 2>&1
-
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$ZSH/homebrew/install.sh 2>&1
 
 # Upgrade homebrew
 echo "› brew update"
@@ -55,5 +52,5 @@ brew update
 brew upgrade
 
 # Install software
-echo "› $DOTFILES/script/install"
-$DOTFILES/script/install
+echo "› $ZSH/script/install"
+$ZSH/script/install
