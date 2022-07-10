@@ -2,3 +2,4 @@
 
 brew install 'kubernetes-cli'
 brew install 'kubectx'
+brew install 'k9s'
