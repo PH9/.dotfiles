@@ -1,6 +1,3 @@
-# Mac App Store command-line interface
-brew 'mas'
-
 # Search tools
 brew 'ack'
 brew 'fd' # Simple, fast and user-friendly alternative to find
@@ -32,9 +29,6 @@ brew 'k6'
 # Collaborative team software
 cask 'figma'
 
-# Git interface focused on visual interaction
-cask 'gitup'
-
 # HTTP and GraphQL Client
 cask 'insomnia'
 
@@ -51,16 +45,12 @@ cask 'paw'
 cask 'postman'
 cask 'proxyman'
 
-# Open-source code editor
+# Text Editor and IDE
 cask 'visual-studio-code'
+cask 'intellij-idea-ce'
 
 # Free and open-source OpenVPN client
 cask 'tunnelblick'
-
-# Mornitoring CI/CD pipelines
-cask 'catlight'
-cask 'ccmenu'
-mas 'McPiper', id: 1517471189
 
 # CI/CD, DevOps
 brew 'awscli'
@@ -74,15 +64,19 @@ cask 'lens' # Kubernetes IDE
 brew 'postgresql'
 brew 'redis'
 brew 'vault'
-cask 'beekeeper-studio'
-cask 'cyberduck'
+# cask 'beekeeper-studio'
+# cask 'cyberduck'
 cask 'dbeaver-community' # Universal database tool and SQL client
 
 # Documents
-cask 'dash'
-cask 'drawio'
-cask 'staruml'
+# cask 'dash'
+# cask 'drawio'
+# cask 'staruml'
 
-# IDE
-cask 'intellij-idea-ce'
-cask 'visual-studio-code'
+# Mac App Store command-line interface
+brew 'mas'
+
+# Mornitoring CI/CD pipelines
+# cask 'catlight'
+# cask 'ccmenu'
+# mas 'McPiper', id: 1517471189

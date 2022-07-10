@@ -48,6 +48,7 @@ $ZSH/homebrew/install.sh 2>&1
 
 # Upgrade homebrew
 echo "› brew update"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 brew update
 brew upgrade
 

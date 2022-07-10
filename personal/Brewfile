@@ -20,16 +20,16 @@ cask 'android-file-transfer'
 cask 'bartender'
 
 # Clipboard extension app
-cask 'clipy'
+# cask 'clipy'
 
 # Files Storage Backup
-cask 'dropbox'
+# cask 'dropbox'
 cask 'google-drive'
 
 # Web browser
-cask 'firefox'
+# cask 'firefox'
 cask 'google-chrome'
-cask 'opera'
+# cask 'opera'
 
 # Utility to fix grammar errors and style issues in text
 cask 'grammarly'
@@ -39,77 +39,79 @@ cask 'spotify'
 cask 'vlc'
 
 # Social Networking
-cask 'discord'
-cask 'gather'
-cask 'telegram'
-cask 'whatsapp'
+# cask 'discord'
+# cask 'gather'
+# cask 'telegram'
+# cask 'whatsapp'
 mas 'LINE', id: 539883307
-mas 'Messenger', id: 1480068668
-mas 'TweetDeck', id: 485812721
-cask 'gather'
+# mas 'Messenger', id: 1480068668
+# mas 'TweetDeck', id: 485812721
+# cask 'gather'
 
 # GAMES
-cask 'epic-games'
-cask 'origin'
-cask 'steam'
+# cask 'epic-games'
+# cask 'origin'
+# cask 'steam'
 
 # Open-source BitTorrent client
-cask 'transmission'
+# cask 'transmission'
 
 # Meeting
-cask 'discord'
-cask 'farrago' # Sound Effect board
-cask 'loopback' #
-cask 'microsoft-teams'
+# cask 'discord'
+# cask 'farrago' # Sound Effect board
+# cask 'loopback' #
+# cask 'microsoft-teams'
 cask 'zoom'
 mas 'MeetingBar', id: 1532419400
 
 # Note
 cask 'notion'
-mas 'Craft', id: 1487937127
+# mas 'Craft', id: 1487937127
 
 # Live Stream
-cask 'obs'
-cask 'obs-ndi'
+# cask 'obs'
+# cask 'obs-ndi'
 
 # Unsorted
 
-cask 'geekbench'
-cask 'godot'
-cask 'handbrake'
-cask 'intel-power-gadget'
-cask 'macs-fan-control'
-cask 'raspberry-pi-imager'
-cask 'spotify'
-cask 'teamviewer'
-cask 'transmission'
-cask 'tunnelblick'
-mas '1Password 7', id: 1333542190
-mas 'AdBlock', id: 1402042596
-mas 'Be Focused Pro', id: 961632517
-mas 'Brother iPrint&Scan', id: 1193539993
-mas 'com.adriangranados.wifiexplorerlite', id: 1408727408
-mas 'DaisyDisk', id: 411643860
-mas 'Developer', id: 640199958
-mas 'DevUtils', id: 1533756032
-mas 'Disk Speed Test', id: 425264550
-mas 'Fantastical', id: 975937182
-mas 'Gifox', id: 1461845568
-mas 'Grammarly for Safari', id: 1462114288
-mas 'iStat Menus', id: 1319778037
-mas 'iStat Mini', id: 927292435
-mas 'Keynote', id: 409183694
-mas 'Live Wallpaper HD', id: 874715580
-mas 'Magnet', id: 441258766
-mas 'Manico', id: 724472954
-mas 'McPiper', id: 1517471189
-mas 'Microsoft Excel', id: 462058435
-mas 'Microsoft OneNote', id: 784801555
-mas 'Microsoft PowerPoint', id: 462062816
-mas 'Microsoft Word', id: 462054704
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
+# cask 'geekbench'
+# cask 'godot'
+# cask 'handbrake'
+# cask 'intel-power-gadget'
+# cask 'macs-fan-control'
+# cask 'raspberry-pi-imager'
+# cask 'spotify'
+# cask 'teamviewer'
+# cask 'transmission'
+# cask 'tunnelblick'
+cask '1Password'
+# mas '1Password 7', id: 1333542190
+# mas 'AdBlock', id: 1402042596
+# mas 'Be Focused Pro', id: 961632517
+# mas 'Brother iPrint&Scan', id: 1193539993
+# mas 'com.adriangranados.wifiexplorerlite', id: 1408727408
+# mas 'DaisyDisk', id: 411643860
+# mas 'Developer', id: 640199958
+# mas 'DevUtils', id: 1533756032
+# mas 'Disk Speed Test', id: 425264550
+# mas 'Fantastical', id: 975937182
+# mas 'Gifox', id: 1461845568
+# mas 'Grammarly for Safari', id: 1462114288
+# mas 'iStat Menus', id: 1319778037
+# mas 'iStat Mini', id: 927292435
+# mas 'Keynote', id: 409183694
+# mas 'Live Wallpaper HD', id: 874715580
+# mas 'Magnet', id: 441258766
+# mas 'Manico', id: 724472954
+# mas 'McPiper', id: 1517471189
+# mas 'Microsoft Excel', id: 462058435
+# mas 'Microsoft OneNote', id: 784801555
+# mas 'Microsoft PowerPoint', id: 462062816
+# mas 'Microsoft Word', id: 462054704
+# mas 'Numbers', id: 409203825
+# mas 'Pages', id: 409201541
 mas 'Shazam', id: 897118787
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
+cask 'spark'
+# mas 'Spark', id: 1176895641
+# mas 'Speedtest', id: 1153157709
 mas 'The Unarchiver', id: 425424353

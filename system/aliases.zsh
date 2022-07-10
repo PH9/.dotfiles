@@ -1,2 +1,2 @@
-alias l='ls -alh'
+alias l='ls -alh --color'
 alias ..='cd ..'

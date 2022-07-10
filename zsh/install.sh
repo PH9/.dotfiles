@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-brew install spaceship
-brew install zsh-autosuggestions
+brew install starship
+eval "$(starship init zsh)"

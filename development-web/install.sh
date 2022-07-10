@@ -13,4 +13,3 @@ python_to_install_version=$(pyenv install -l | rg ' 3.\d+.\d+$' | tail -1 | xarg
 pyenv install -s "$python_to_install_version"
 
 brew install 'pipenv'
-brew install --cask 'chromedriver'
