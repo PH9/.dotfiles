@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 brew install starship
 eval "$(starship init zsh)"

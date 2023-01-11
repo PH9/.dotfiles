@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 brew install 'nvm'
 . nvm/path.zsh

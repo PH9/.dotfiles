@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
-if test ! "$(uname)" = "Darwin"
-  then
+if test ! "$(uname)" = "Darwin"; then
   exit 0
 fi
 
@@ -12,4 +12,3 @@ fi
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
-
