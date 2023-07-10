@@ -58,7 +58,7 @@ brew 'helm'
 brew 'shellcheck'
 brew 'terraform'
 cask 'google-cloud-sdk'
-cask 'lens' # Kubernetes IDE
+cask 'openlens' # Kubernetes IDE
 
 # Storage
 brew 'postgresql'
